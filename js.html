@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIRST JS</title>
+  </head>
+  <style>
+    body {
+      background-color: white;
+      text-align: center;
+      margin-top: 250px;
+    }
+    button {
+      transition: 1s;
+    }
+    .btn {
+      background-color: black;
+      border: none;
+      height: 150px;
+      width: 150px;
+      font-size: 30px;
+    }
+    .btn:hover {
+      transition: 1s;
+      height: 180px;
+      width: 180px;
+      font-size: 35px;
+    }
+    .btn-2 {
+      background-color: white;
+      border: none;
+      width: 150px;
+      height: 150px;
+      font-size: 30px;
+    }
+    .btn-2:hover {
+      transition: 1s;
+      height: 180px;
+      width: 180px;
+      font-size: 35px;
+    }
+  </style>
+
+  <body id="body">
+    <button class="btn" onclick="myFunction()">😑</button>
+    <button class="btn-2" onclick="myFunctio()">😁</button>
+
+    <script>
+      function myFunction() {
+        document.getElementById("body").style.backgroundColor = "black";
+      }
+      function myFunctio() {
+        document.getElementById("body").style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+</html>
